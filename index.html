@@ -322,7 +322,22 @@
                             </svg>
                         </div>
                     </div>
-                </div>              
+                </div>
+                <form action="" class="subscription">
+                    <p class="subscription-p">Suscríbase al boletín informativo</p>
+                    <div class="subscription-form">
+                      
+                        <input class="subscription-form-email" placeholder="Correo electrónico" type="email">
+                     
+                      <button class="subscription-button">Suscríbase
+                        <span>
+                          <svg class="svg-subscribe" width="24" height="24">
+                            <use href="./img/icons.svg#icon-send"></use>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>                    
+                </form>              
             </div>
         </div>
     </footer> 
@@ -338,21 +353,21 @@
 
                     <label for="name">Nombre:</label>
                     <div class="backdrop-form-group">
-                        <input type="text" id="name" name="name" required>
+                        <input class="modal-form-text" type="text" id="name" name="name" required>
                         <svg class="icon-name">
                             <use class="icon-hover" href="./img/icons.svg#name" ></use>
                         </svg>
                     </div>
                     <label for="tel">Teléfono:</label>
                     <div class="backdrop-form-group">
-                        <input type="text" id="tel" name="tel" required>
+                        <input class="modal-form-text" type="text" id="tel" name="tel" required>
                         <svg class="icon-tel">
                             <use class="icon-hover" href="./img/icons.svg#tel" ></use>
                         </svg>
                     </div>
                     <label for="email">Email:</label>
                     <div class="backdrop-form-group">                    
-                        <input type="email" id="email" name="email" required>
+                        <input class="modal-form-email" type="email" id="email" name="email" required>
                         <svg class="icon-email">
                             <use class="icon-hover" href="./img/icons.svg#email" ></use>
                         </svg>
@@ -367,8 +382,7 @@
                         <label for="policy" class="modal-form-checkbox-label">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones</label>
 
                     </div>
-
-                    <input type="submit" value="Enviar">
+                    <button type="submit">Enviar</button>
                 </form>
         </div>        
     </section>   
