@@ -12,12 +12,12 @@ header {
     border-bottom: 1px solid #ececec;
 }
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 .container-content {
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -172,7 +172,7 @@ header {
 }
 .callToAction {
     background-color: #2F303A66;
-    width: 1600px;
+    width: 100%;
     height: 600px;
     display: flex;
     justify-content: center;
